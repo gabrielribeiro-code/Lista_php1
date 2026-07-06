@@ -14,3 +14,10 @@ function calcularFormula($x, $y)
     return $resultado;
 }
 
+$x = 10;
+$y = 5;
+
+echo "Valor de X: $x <br>";
+echo "Valor de X: $y <br><br>";
+
+echo calcularFormula($x,$y);
