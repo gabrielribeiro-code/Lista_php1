@@ -79,4 +79,19 @@ $quantidade = count($notas); // count função do php para contar as notas.
 
 Assim com estas funções foi muito mais fácil o desenvolvimento do trabalho.
 
+# Exercicio 11:
+
+Na decima primeira atividade foi solicitado que fizessemos um sistema que formatar relátorios e que mudificasse um texto para, totalemnte em letras maisculas, minisculas e desse a quantidade total de caracteres.
+Novamente utilizei funções especificas do PHP que ajudaram muito a desenvolver o código e a atividade.
+
+$maisculo = mb_strtoupper($texto, 'UTF-8'); // função do php que transforma tudo em maisculo
+ 
+$minusculo = mb_strtolower($texto, 'UTF-8'); // função do php que transforma tudo em minisculo
+
+$pMaiscula = mb_convert_case($texto, MB_CASE_TITLE, 'UTF-8'); // função do php que transforma a primeira letra sempre em maisculo, com conceito de case.
+
+$conta = mb_strlen($texto, 'UTF-8'); // função que conta a quantidade de letras.
+
+Assim com estas funções ficou muito mais simples de fazer do que com vários ifs e etc, e cada função faz uma coisa isso deixou também o código mais limpo e simples.
+
 
