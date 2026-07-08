@@ -1,15 +1,17 @@
 <?php
 
-function catalogoProdutos($produtos){
+function analisarProdutos($produtos, $buscaProduto){
 
 
-$produtoCaro
+$produtoCaro = $produtos[0];
 
-$produtoBarato
+$produtoBarato = $produtos[0];
 
-$mediaPreco
+$somaPrecos = 0;
 
+$mediaPreco 
 
+foreach ($produtos )
 
 
 
