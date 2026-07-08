@@ -94,4 +94,18 @@ $conta = mb_strlen($texto, 'UTF-8'); // função que conta a quantidade de letra
 
 Assim com estas funções ficou muito mais simples de fazer do que com vários ifs e etc, e cada função faz uma coisa isso deixou também o código mais limpo e simples.
 
+# Exercicio 12: 
 
+No exercicio 12 foi solicitado que fizerssemos uma analise de produtos, um catologo de produtos, eu tive grande dificuldade tanto nessa e nas outras por que a gente fica com aquela ideia e C e as outras linguagens de programação de ter um lugar para o usuario digitar de enviar e ler e isso me confunde muito, mas enfim na 12 a lógica utilizada para fazer a atividade foi usar algumas funções do próprio php e alguns if's, uma logica de a esse recebe tal e sse recebe tal e é isso.
+
+# Exercicio 13:
+
+No exercicio 13 foi uma atividade bem mais complexa que as outras mais foi solicitado que fizerssemos uma criptografia de um texto utiizando a criptografia de César. Pesquisando o que era essa criptografia a gente ve que ela sempre desloca 3 posições então uitlizando funções do php e alguns ifs e else consegui realizar esta atividade. 
+
+funções utilizadas como: 
+strtolower = Transforma o texto em minisculo.
+usamos também coisas como .= que siginfica lá no code $resultado = $resultado . $letra, fiz assim no código $resultado .= $letra;
+strpos = Descobre a posição da letra no alfabeto.
+E também teve essa conta que ajuda a não passar do fim do alfabeto = $novaPosicao =        ($posicao + $deslocamento) % 26; No descript é menos dessa equação e tem + 26 também para não ir para os números négativos e a conta der certinho para achar as posições = $novaPosicao = ($posicao - $deslocamento + 26) % 26;
+
+A lógica basicamente é bem de ordenar vetores, ordenar posições que é coisas que nós vimos bastante em C, mas tive que pesquisar bastante essa atividade e tive grande dificuldade em faze-lá como em todas as outras.
