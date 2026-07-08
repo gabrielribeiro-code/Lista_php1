@@ -60,4 +60,23 @@ trim = serve para tirar os espaços antes e depois de cada nome.
 print_r = serve para mostrar o array todo de uma vez.
 sort =  ordena a lista o nome é bem autoexplicativo como os bubble sort em C kk.
 
+# Exercicio 9: 
+
+No nono exercicio foi solicitado que fizessemos um verificador matemático que verificasse se um número era par ou impar, primo ou não e perfeito ou não. A lógica minha utilizada para fazer esse exercicio foi fazer vários if e else pois não tinha funções especificas do php para fazer o nosso trabalho, então tive que fazer com vários if e else. 
+
+# Exercicio 10: 
+
+No décimo exercício foi solicitado na aitvidade um sistema de notas a logica que eu utilizei para fazer este sistema foi utilizando funções já prontas do php que facilitou muito o trabalho para realizar a atividade.
+
+As funções que eu utilizei foram essas:
+
+$maiorNota = max($notas); //max = função do php para ver o número mais alto
+
+$menorNota = min($notas); //min = função do php para ver o menor número.
+
+$soma = array_sum($notas); //array_sum função do php para somar as notas.
+$quantidade = count($notas); // count função do php para contar as notas.
+
+Assim com estas funções foi muito mais fácil o desenvolvimento do trabalho.
+
 
