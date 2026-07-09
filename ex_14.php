@@ -54,14 +54,14 @@ $vetor = [4, 8, 15, 16, 23, 42, 7, 3, 10];
  
 $resultado = estatisticasNumericas($vetor);
 
-$quebraLinha = php_sapi_name() === 'cli' ? PHP_EOL : '<br>';
+
  
-echo "Vetor analisado: [" . implode(', ', $vetor) . "]" . $quebraLinha;
-echo "Soma: " . $resultado['soma'] . $quebraLinha;
-echo "Média: " . round($resultado['media'], 2) . $quebraLinha;
-echo "Maior valor: " . $resultado['maior'] . $quebraLinha;
-echo "Menor valor: " . $resultado['menor'] . $quebraLinha;
-echo "Mediana: " . $resultado['mediana'] . $quebraLinha;
-echo "Quantidade de pares: " . $resultado['pares'] . $quebraLinha;
-echo "Quantidade de ímpares: " . $resultado['impares'] . $quebraLinha;
+echo "Vetor analisado: [" . implode(', ', $vetor) . "]" . "<br>";
+echo "Soma: " . $resultado['soma'] . "<br>";
+echo "Média: " . round($resultado['media'], 2) .  "<br>";
+echo "Maior valor: " . $resultado['maior'] . "<br>";
+echo "Menor valor: " . $resultado['menor'] . "<br>";
+echo "Mediana: " . $resultado['mediana'] . "<br>";
+echo "Quantidade de pares: " . $resultado['pares'] . "<br>";
+echo "Quantidade de ímpares: " . $resultado['impares'] .  "<br>";
 ?>
